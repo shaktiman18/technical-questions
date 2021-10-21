@@ -1,0 +1,18 @@
+[{
+    "topic": "Python",
+    "subtopic": "Syntax",
+    "type": "MCQ",
+    "question": "How do you make a single line comment in Python?",
+    "options": "#, //, !, /",
+    "answer": "#",
+    "difficulty": "Easy"
+   },
+   {
+    "topic": "Python",
+    "subtopic": "Syntax",
+    "type": "MCQ",
+    "question": "How do you make a single line comment in Python?",
+    "options": "#, //, !, /",
+    "answer": "#",
+    "difficulty": "Easy"
+}]

@@ -15,4 +15,14 @@
     "options": "#, //, !, /",
     "answer": "#",
     "difficulty": "Easy"
-}]
+   },
+   {
+       "topic":"Python",
+       "subtopic":"Basics",
+       "type":"MCQ",
+       "question":"How do you represent a raised to b in Python?",
+       "options":"a**b, a^b, a^^b, a^*b",
+       "answer":"a**b",
+       "difficulty":"Easy"
+   }
+]

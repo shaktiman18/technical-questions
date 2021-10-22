@@ -3,7 +3,7 @@
         "topic": "React",
         "subtopic": "Basics",
         "type": "MCQ",
-        "question": "A valid react component can return how many elements?",
+        "question": "A valid react component can return how many elements ?",
         "options": [1, 2, 3, 4],
         "answer": 0, 
         "difficulty": "Easy"

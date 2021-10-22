@@ -1,0 +1,28 @@
+[
+  {
+    "topic": "SQL",
+    "subtopic": "Queries",
+    "type": "MCQ",
+    "question": "Which data manipulation command combines the records from one or more tables?",
+    "options": ["SELECT", "JOIN", "INSERT", "UPDATE"],
+    "answer": 1, 
+    "difficulty": "Easy"
+  },
+  {  
+    "topic": "SQL",
+    "subtopic": "basics",
+    "type": "MCQ",
+    "question": "SQL permits attribute names to be repeated in the same relation.",
+    "options": ["TRUE", "FALSE"],
+    "answer": 1,
+    "difficulty": "Basic"
+  },
+  {
+    "topic": "SQL",
+    "subtopic": "aggregate functions",
+    "type": "MCQ",
+    "question": "Which of the following is NOT an aggregate function in SQL",
+    "options": ["AVG()", "COUNT()", "MAX()", "UPDATE()"],
+    "answer": 3,
+    "difficulty": "medium"
+]

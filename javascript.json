@@ -6,4 +6,13 @@
     "options": ["0", "true", "false", "125"],
     "answer": 3,
     "difficulty": "Medium"
+},
+{
+    "topic":"JavaScript",
+    "subtopic":"Array",
+    "type":"MCQ",
+    "question":"Which option is used to filter out username with length more than 10 in the Array\nlet arr = ['john12345','mark@Twain34567,'qwerty1234590','robbin$smith@7890']?",
+    "options":"arr.map(e=>{return e.length>10}), arr.filter(e=>{return e}), arr.filter(e=>{return e.length>10}), arr.filter(e=>{return e.length<10})",
+    "answer":3,
+    "difficulty":"Medium"
 }]

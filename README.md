@@ -14,8 +14,8 @@ The format of the questions must be as given below:
   "subtopic": "Syntax",
   "type": "MCQ",
   "question": "How do you make a single line comment in Python?",
-  "options": "#, //, !, /",
-  "answer": "#",
+  "options": ["#", "//", "!", "/"],
+  "answer": 0,
   "difficulty": "Easy"
  },
  {
@@ -23,8 +23,8 @@ The format of the questions must be as given below:
   "subtopic": "Syntax",
   "type": "MCQ",
   "question": "How do you make a single line comment in Python?",
-  "options": "#, //, !, /",
-  "answer": "#",
+  "options": ["#", "//", "!", "/"],
+  "answer": 0,
   "difficulty": "Easy"
 }]
 ```

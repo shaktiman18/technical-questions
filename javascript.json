@@ -3,7 +3,7 @@
     "subtopic": "Operator precedence and Boolean value",
     "type": "MCQ",
     "question": "What's the result? 5 && 0||5**2*5||undefined+null && ['']||[]&&false",
-    "options": "0, true, false, 125",
-    "answer": "125",
+    "options": ["0", "true", "false", "125"],
+    "answer": 3,
     "difficulty": "Medium"
 }]

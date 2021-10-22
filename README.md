@@ -1,8 +1,9 @@
-# Collection of Python Questions
+# Collection of Technical Questions 🧑‍🎓
 
 This repository has a collection of questions related to technical topics in programming that can be used for competitions and testing concepts via quizzes. 
+The questions can be Multiple Choice Questions, Short Answer or Coding based. An example for each type is given below so contributors can add any sort of question based on the format given.
 
-### How to Contribute
+### How to Contribute 😄
 
 All questions must be added to the file associated with the topics.
 
@@ -39,4 +40,4 @@ The format of the questions must be as given below:
 ]
 ```
 
-Raise a PR and if it follows the correct syntax and the data entered is corrected, the questions will be merged!
+Raise a PR and if it follows the correct syntax and the data entered is corrected, the questions will be merged! 🚀 🚀 🚀

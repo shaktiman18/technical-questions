@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "topic": "React",
+        "subtopic": "Basics",
+        "type": "MCQ",
+        "question": "A valid react component can return how many elements?",
+        "options": [1, 2, 3, 4],
+        "answer": 0, 
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "React",
+        "subtopic": "Hooks",
+        "type": "MCQ",
+        "question": "What is setState() hook used for?",
+        "options": ["To access the previous state before the setState operation",
+                    "To invoke code after the setState operation is done",
+                    "To change the state based on the changes occured",
+                    "None of the above"],
+        "answer": 1, 
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "React",
+        "subtopic": "Basics",
+        "type": "MCQ",
+        "question": "What does react use to increase its peformance?",
+        "options": ["original DOM", "Virtual DOM", "React DOM", "None of the above"],
+        "answer": 1, 
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "React",
+        "subtopic": "JSX",
+        "type": "MCQ",
+        "question": "Which of the following is true about keys?",
+        "options": ["It Doesn't require to be unique",
+                    "Unique in the entire DOM",
+                    "Unique among the siblings only",
+                    "Unique in the component"],
+        "answer": 2, 
+        "difficulty": "Easy"
+    },
+    {
+        "topic": "React",
+        "subtopic": "Basics",
+        "type": "MCQ",
+        "question": "What is the Default port in which the webpack-server will run?",
+        "options": [3000, 3333, 6020, 8080],
+        "answer": 3, 
+        "difficulty": "Easy"
+    }
+
+]

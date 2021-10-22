@@ -15,4 +15,13 @@
     "options":"arr.map(e=>{return e.length>10}), arr.filter(e=>{return e}), arr.filter(e=>{return e.length>10}), arr.filter(e=>{return e.length<10})",
     "answer":3,
     "difficulty":"Medium"
+},
+{
+    "topic":"JavaScript",
+    "subtopic":"JavaScript Objects",
+    "type":"MCQ",
+    "question":"What is the value of 'a' in the following code\n const obj = {'a':12345,'b':true}\n const {a} = obj",
+    "options":"12345,true,{'a':12345,'b':true},Error",
+    "answer":1,
+    "difficulty":"Easy"
 }]

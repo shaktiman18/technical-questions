@@ -3,7 +3,7 @@
     "subtopic": "Class and Objects",
     "type": "MCQ",
     "question": "How do you call a function getRollNo from object S1 of class Student?",
-    "options": "S1.getRollNo(), S1::getRollNo(), getRollNo(), S1.function(getRollNo()) ",
-    "answer": "S1.getRollNo()",
+    "options": ["S1.getRollNo()", "S1::getRollNo()", "getRollNo()", "S1.function(getRollNo())"],
+    "answer": 0,
     "difficulty": "Medium"
 }]

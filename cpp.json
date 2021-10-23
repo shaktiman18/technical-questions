@@ -6,4 +6,23 @@
     "options": ["S1.getRollNo()", "S1::getRollNo()", "getRollNo()", "S1.function(getRollNo())"],
     "answer": 0,
     "difficulty": "Medium"
+},
+{
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Which of the following is the scope resolution operator?",
+    "options": ["::", "~", "*", "."],
+    "answer": 0,
+    "difficulty": "Easy"
+},
+{
+    "topic": "C-Plus-Plus",
+    "subtopic": "Pointers",
+    "type": "MCQ",
+    "question": " Which of the following is illegal?",
+    "options": ["int *ip;", "string s, *sp = 0;", "int i; double* dp = &i;", "int *pi = 0;"],
+    "answer": 2,
+    "difficulty": "Easy"
 }]
+

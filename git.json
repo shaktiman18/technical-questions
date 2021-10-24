@@ -1,0 +1,62 @@
+[
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Which of the following git command that downloads your repository from GitHub to your local machine?",
+		"options": ["git fork", "git push", "git rebase", "git clone"],
+		"answer": 3,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Definition",
+		"type": "MCQ",
+		"question": "Git is a",
+		"options": [
+			"Distributed version control system",
+			"Localized version control system",
+			"Centralized version control system",
+			"None of the above"
+		],
+		"answer": 0,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Which of the following git command can be used to check the stored stashes?",
+		"options": [
+			"git stash branch",
+			"git stash list",
+			"git stash",
+			"git stash show"
+		],
+		"answer": 1,
+		"difficulty": "Medium"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Which is used to reference cloned remote repository?",
+		"options": ["head", "origin", "log", "status"],
+		"answer": 1,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Git log command contains:",
+		"options": [
+			"commit message",
+			"commit date and author metadata",
+			"commit hash",
+			"all of the above"
+		],
+		"answer": 3,
+		"difficulty": "Easy"
+	}
+]

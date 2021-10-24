@@ -30,7 +30,7 @@
     "subtopic": "List",
     "type": "MCQ",
     "question": "Element at Index 2 of List: myList = [16, False, 38.345, 23, 55, 'hello world'] is?",
-    "options": "16,True,38.345,hello World",
+    "options": ["16", "True", "38.345", "hello World"],
     "answer": 3,
     "difficulty": "Easy"
    },
@@ -39,7 +39,7 @@
     "subtopic": "List",
     "type": "MCQ",
     "question": "Which of these function calls will create a list of numbers from 3 to 15 (inclusive) in Python 3?",
-    "options": "list(range(3,15)),range(3,15),range(2,11),list(range(3,16))",
+    "options": ["list(range(3,15))", "range(3,15)", "range(2,11)", "list(range(3,16))"],
     "answer": 4,
     "difficulty": "Easy"
    }

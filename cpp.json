@@ -24,5 +24,31 @@
     "options": ["int *ip;", "string s, *sp = 0;", "int i; double* dp = &i;", "int *pi = 0;"],
     "answer": 2,
     "difficulty": "Easy"
+},
+{
+    "topic":"C-Plus-Plus",
+    "subtopic":"Basics",
+    "type":"MCQ",
+    "question":"Output of following CPP Code:\n int i=5;\ni= i++ + ++i;\ncout<<i;",
+    "options":["12","11","13","Error"],
+    "answer":0,
+    "difficulty":"Easy"
+},
+{
+    "topic":"C-Plus-Plus",
+    "subtopic":"Recursion",
+    "type":"MCQ",
+    "question":"Value of func(8): \nint func(int n){\nif(x<=0)return 0;\nelse{return func(x-2)+x;}",
+    "options":["23","20","21","18"],
+    "answer":1,
+    "difficulty":"Easy"
+},{
+    "topic":"C-Plus-Plus",
+    "subtopic":"Object Oriented Programming",
+    "type":"MCQ",
+    "question":"When is a Copy Constructor Called?",
+    "options":["An object of the class is returned by value","An object of the class is passed by value as an argument","When an object is constructed based on another object of the same class","All of the above"],
+    "answer":3,
+    "difficulty":"Medium"
 }]
 

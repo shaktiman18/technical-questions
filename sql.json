@@ -15,14 +15,15 @@
     "question": "SQL permits attribute names to be repeated in the same relation.",
     "options": ["TRUE", "FALSE"],
     "answer": 1,
-    "difficulty": "Basic"
+    "difficulty": "Easy"
   },
   {
     "topic": "SQL",
-    "subtopic": "aggregate functions",
+    "subtopic": "Aggregate Functions",
     "type": "MCQ",
     "question": "Which of the following is NOT an aggregate function in SQL",
     "options": ["AVG()", "COUNT()", "MAX()", "UPDATE()"],
     "answer": 3,
     "difficulty": "medium"
+  }
 ]

@@ -1,0 +1,171 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "topic": "Python",
+                "subtopic": "Syntax",
+                "type": "MCQ",
+                "question": "How do you make a single line comment in Python?",
+                "options": [
+                    "#",
+                    "//",
+                    "!",
+                    "/"
+                ],
+                "answer": 0,
+                "difficulty": "Easy"
+            },
+            {
+                "topic": "Python",
+                "subtopic": "Basics",
+                "type": "MCQ",
+                "question": "How do you represent a raised to b in Python?",
+                "options": [
+                    "a**b",
+                    "a^b",
+                    "a^^b",
+                    "a^*b"
+                ],
+                "answer": 0,
+                "difficulty": "Easy"
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "topic": "Python",
+                        "subtopic": "Syntax",
+                        "type": "MCQ",
+                        "question": "How do you make a single line comment in Python?",
+                        "options": [
+                            "#",
+                            "//",
+                            "!",
+                            "/"
+                        ],
+                        "answer": 0,
+                        "difficulty": "Easy"
+                    }
+                ],
+                "required": [
+                    "topic",
+                    "subtopic",
+                    "type",
+                    "question",
+                    "options",
+                    "answer",
+                    "difficulty"
+                ],
+                "properties": {
+                    "topic": {
+                        "$id": "#/items/anyOf/0/properties/topic",
+                        "type": "string",
+                        "title": "The topic schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Python"
+                        ]
+                    },
+                    "subtopic": {
+                        "$id": "#/items/anyOf/0/properties/subtopic",
+                        "type": "string",
+                        "title": "The subtopic schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Syntax"
+                        ]
+                    },
+                    "type": {
+                        "$id": "#/items/anyOf/0/properties/type",
+                        "type": "string",
+                        "title": "The type schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "MCQ"
+                        ]
+                    },
+                    "question": {
+                        "$id": "#/items/anyOf/0/properties/question",
+                        "type": "string",
+                        "title": "The question schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "How do you make a single line comment in Python?"
+                        ]
+                    },
+                    "options": {
+                        "$id": "#/items/anyOf/0/properties/options",
+                        "type": "array",
+                        "title": "The options schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": [],
+                        "examples": [
+                            [
+                                "#",
+                                "//"
+                            ]
+                        ],
+                        "additionalItems": true,
+                        "items": {
+                            "$id": "#/items/anyOf/0/properties/options/items",
+                            "anyOf": [
+                                {
+                                    "$id": "#/items/anyOf/0/properties/options/items/anyOf/0",
+                                    "type": "string",
+                                    "title": "The first anyOf schema",
+                                    "description": "An explanation about the purpose of this instance.",
+                                    "default": "",
+                                    "examples": [
+                                        "#",
+                                        "//"
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "answer": {
+                        "$id": "#/items/anyOf/0/properties/answer",
+                        "type": "integer",
+                        "title": "The answer schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            0
+                        ]
+                    },
+                    "difficulty": {
+                        "$id": "#/items/anyOf/0/properties/difficulty",
+                        "type": "string",
+                        "title": "The difficulty schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Easy"
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}

@@ -67,5 +67,47 @@
     ],
     "answer": 0,
     "difficulty": "Easy"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "What is the maximum possible length of an identifier?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "None of these"
+    ],
+    "answer": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Which of the following declaration is incorrect?",
+    "options": [
+      "_x = 2",
+      "__x = 3",
+      "__xyz__ = 5",
+      "None of these"
+    ],
+    "answer": 3,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Pandas",
+    "type": "MCQ",
+    "question": "What will be correct syntax for pandas series?",
+    "options": [
+      "pandas_Series( data, index, dtype, copy)",
+      "pandas.Series( data, index, dtype)",
+      "pandas.Series( data, index, dtype, copy)",
+      "pandas_Series( data, index, dtype)"
+    ],
+    "answer": 2,
+    "difficulty": "Medium"
   }
 ]

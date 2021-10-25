@@ -1,0 +1,29 @@
+[
+  {
+    "topic": "bash",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "How to assign the value of variable a to variable b?",
+    "options": ["b=a", "$b=a", "b=$a", "None of these"],
+    "answer": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "bash",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "what is shebang operator in bash?",
+    "options": ["#", "#!", "/!", "None of These"],
+    "answer": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "bash",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "what is the permission code to execute a bash script",
+    "options": ["766", "665", "666", "None of These"],
+    "answer": 0,
+    "difficulty": "Easy"
+  }
+]

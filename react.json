@@ -4,7 +4,7 @@
         "subtopic": "Basics",
         "type": "MCQ",
         "question": "A valid react component can return how many elements ?",
-        "options": [1, 2, 3, 4],
+        "options": ["1", "2", "3", "4"],
         "answer": 0, 
         "difficulty": "Easy"
     },
@@ -46,9 +46,8 @@
         "subtopic": "Basics",
         "type": "MCQ",
         "question": "What is the Default port in which the webpack-server will run?",
-        "options": [3000, 3333, 6020, 8080],
+        "options": ["3000", "3333", "6020", "8080"],
         "answer": 3, 
         "difficulty": "Easy"
     }
-
 ]

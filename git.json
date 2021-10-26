@@ -58,5 +58,61 @@
 		],
 		"answer": 3,
 		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "git fetch + git merge equal to?",
+		"options": [
+			"git push",
+			"git stash",
+			"git pull",
+			"git checkout"
+		],
+		"answer": 2,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Looking at the following commands, describe what is happening. git checkout feature-user-location git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231",
+		"options": [
+			"The commit is being tagged for release on the feature-user-location branch",
+			"A commit is being copied from its original branch over to the feature-user-location branch",
+			"The commit is being cherry picked as the new HEAD of the commit history",
+			"The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch."
+		],
+		"answer": 2,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?",
+		"options": [
+			"git rebase -log",
+			"git rebase -i",
+			"git rebase -verbose",
+			"git rebase -all"
+		],
+		"answer": 1,
+		"difficulty": "Medium"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?",
+		"options": [
+			"This is not possible, as you cannot save locally without committing.",
+			"Run git hold to save a local copy of what you're doing to return to later.",
+			"Save your work with git local-cache.",
+			"Use git stash to save your work and come back later and reapply the stashed commit."
+		],
+		"answer": 3,
+		"difficulty": "Easy"
 	}
 ]

@@ -25,5 +25,32 @@
     "options": ["AVG()", "COUNT()", "MAX()", "UPDATE()"],
     "answer": 3,
     "difficulty": "medium"
+  },
+  {
+    "topic": "SQL",
+    "subtopic": "basics",
+    "type": "MCQ",
+    "question": "Which of the following statements is true concerning routines and triggers?",
+    "options": ["Both consist of procedural code.", "Both have to be called to operate.", "Both run automatically.", "Both are stored in the database."],
+    "answer": 0, 
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "SQL",
+    "subtopic": "Queries",
+    "type": "MCQ",
+    "question": "A CASE SQL statement is which of the following?",
+    "options": ["A way to establish an IF-THEN-ELSE in SQL.", "A way to establish a loop in SQL.", "A way to establish a data definition in SQL.", "All of the above"],
+    "answer": 0, 
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "SQL",
+    "subtopic": "basics",
+    "type": "MCQ",
+    "question": "The following SQL is which type of join: SELECT CUSTOMER_T. CUSTOMER_ID, ORDER_T. CUSTOMER_ID, NAME, ORDER_ID FROM CUSTOMER_T,ORDER_T WHERE CUSTOMER_T. CUSTOMER_ID = ORDER_T. CUSTOMER_ID",
+    "options": ["Natural join", "Equi join", "Outer join", "Cartesian join"],
+    "answer": 1, 
+    "difficulty": "Easy"
   }
 ]

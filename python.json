@@ -131,5 +131,16 @@
     ],
     "answer": 3,
     "difficulty": "Easy"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "What is the output of the followuing program?\np=5678\nfor i in p:\n\tprint(i)",
+    "options": [
+      "5\n6\n7\n8", "5678", "Error", "None"
+    ],
+    "answer": 2,
+    "difficulty": "Easy"
   }
 ]

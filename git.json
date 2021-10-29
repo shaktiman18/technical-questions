@@ -114,5 +114,125 @@
 		],
 		"answer": 3,
 		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What is an alternative to merging in git?",
+		"options": ["Basing", "Rebasing", "Squashing", "None of these"],
+		"answer": 1,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What does refs in git store?",
+		"options": [
+			"SHA-1 value", 
+			"Random Number", 
+			"Date and Time Stamp", 
+			"None of the above"
+		],
+		"answer": 0,
+		"difficulty": "Medium"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What option can you use to apply git configurations across your entire git environment?",
+		"options": ["--all", "--global", "-master", "--globe"],
+		"answer": 1,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What does the git stash drop command do?",
+		"options": [
+			"deletes the stash", 
+			"lists everything in the stash", 
+			"throws away the oldest entry", 
+			"removes the most recent stash entry"
+		],
+		"answer": 3,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What command would let you modify your previous commit?",
+		"options": ["--quickfix", "-modify", "--fix", "-amend"],
+		"answer": 3,
+		"difficulty": "Medium"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What does the following command do to the git repository? git reset--soft HEAD",
+		"options": [
+			"It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.",
+			"It resets the working branch to the first commit", 
+			"It deletes all previous commits and reset the repository history back to its initial state", 
+			"None of the above"
+		],
+		"answer": 0,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What command creates a new branch from the currently checked-out branch?",
+		"options": [
+			"git-b checkout", 
+			"git checkout-b", 
+			"git checkout", 
+			"git branch"
+		],
+		"answer": 1,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What is the meaning of remote repository in Git?",
+		"options": [
+			"a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts", 
+			"the lead repository elected by the Git arbitrator found within local repositories of collaborating team members", 
+			"a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted", 
+			"a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators"
+		],
+		"answer": 3,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "Which file in a git repository specifies intentionally untracked files that git should ignore?",
+		"options": [".gitignore", ".git-exclude", ".gitexclude", ".git-ignore"],
+		"answer": 0,
+		"difficulty": "Easy"
+	},
+	{
+		"topic": "Git",
+		"subtopic": "Command",
+		"type": "MCQ",
+		"question": "What is the command for switching branches?",
+		"options": [
+			"git switch <branch name>", 
+			"git checkout <branch name>", 
+			"git branch <branch name>", 
+			"git move <branch name>"
+		],
+		"answer": 1,
+		"difficulty": "Easy"
 	}
 ]

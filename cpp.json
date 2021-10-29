@@ -76,5 +76,95 @@
     "options": ["int * const", "int const *", "int *", "None of the above"],
     "answer": 1,
     "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "C++ is a _?",
+    "options": ["object oriented programming language", "procedural programming language", "both procedural and object oriented programming language", "functional programming language"],
+    "answer": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Object Oriented Programming",
+    "type": "MCQ",
+    "question": "Virtual inheritance in C++ is used to ?",
+    "options": ["enhance multiple inheritance", "ensure that a private member of the base class can be accessed", "avoid multiple inheritances of classes", "avoid multiple copies of the base class into children/derived class"],
+    "answer": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Which keyword is used to define the macros in c++?",
+    "options": ["#define", "#macro", "macro", "define"],
+    "answer": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Which symbol is used to declare the preprocessor directives in C++?",
+    "options": ["$", "^", "#", "*"],
+    "answer": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Choose the operator which cannot be overloaded in C++",
+    "options": ["/", "()", "::", "%"],
+    "answer": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "What is the full form of STL?",
+    "options": ["Standard template library", "System template library", "Standard topics library", "None of the above"],
+    "answer": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "Which operator has highest precedence?",
+    "options": ["=", "()", "*", "++"],
+    "answer": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "What following operator is called '?:' ",
+    "options": ["Conditional Operator", "Scope Resolution Operator", "Ternary Operator", "if else o/p"],
+    "answer": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "In C++ Program, inline functions are expanded during",
+    "options": ["Debug Time", "Compile Time", "Run Time", "Coding Time"],
+    "answer": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "topic": "C-Plus-Plus",
+    "subtopic": "Object Oriented Programming",
+    "type": "MCQ",
+    "question": "Number of Arguments in a Default constructor is",
+    "options": ["0", "1", "2", "None of these"],
+    "answer": 0,
+    "difficulty": "Easy"
   }
 ]

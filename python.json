@@ -120,5 +120,16 @@
     ],
     "answer": 2,
     "difficulty": "Easy"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Basics",
+    "type": "MCQ",
+    "question": "What is the output of the followuing program?\nfor i in range(0):\n\tprint(i)",
+    "options": [
+      "1", "-1", "0", "None"
+    ],
+    "answer": 3,
+    "difficulty": "Easy"
   }
 ]

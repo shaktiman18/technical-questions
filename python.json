@@ -109,5 +109,16 @@
     ],
     "answer": 2,
     "difficulty": "Medium"
+  },
+  {
+    "topic": "Python",
+    "subtopic": "Lists",
+    "type": "MCQ",
+    "question": "Which of the following will add an element to a list?",
+    "options": [
+      "list.sum(5)", "list1.add(5)", "list1.append(5)", "list.addelement(5)"
+    ],
+    "answer": 2,
+    "difficulty": "Easy"
   }
 ]
